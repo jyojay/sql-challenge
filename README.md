@@ -16,6 +16,8 @@ pgAdmin 4V7 was used for sql
 * Composite key has been created for both dept_emp and dept_manager tables as the data has multiple managers per department and multiple employees are there in multiple departments. I have assumed that an employee could also be manager of multiple departments since they can be part of multiple departments as per dept_emp data
 * I havent created a foreign key on the composite key between dept_emp and dept_manager in order to reduce complexity however it would be another referential constraint to consider in those tables, depending on usage requirement. At present it is not required for the analysis questions posed
 * Salaries file will always have salaries against all employees. If this will not be the case then a left join will have to be used for generating results of the first analysis question however it will have null values against non existant salaries which would be incorrect. Therefore assumption holds true
-  
+
+# ERD:
+![image](https://github.com/jyojay/sql-challenge/assets/132628129/bf1f739d-2bf3-4277-862f-a2eb032eee82)
 
 
