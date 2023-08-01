@@ -18,6 +18,7 @@ pgAdmin 4V7 was used for sql
 * Salaries file will always have salaries against all employees. If this will not be the case then a left join will have to be used for generating results of the first analysis question however it will have null values against non existant salaries which would be incorrect. Therefore assumption holds true
 
 # ERD:
+* Included here as well since .png file sometimes doesn't come up with a preview or download:
 ![image](https://github.com/jyojay/sql-challenge/assets/132628129/bf1f739d-2bf3-4277-862f-a2eb032eee82)
 
 
